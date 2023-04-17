@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+ text-align: center;
+ padding: none;
+ margin:none;
+ font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+.top{
+    background-color: #282A3A;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: #282A3A;
+    color: white;
+}
+.navbar h1{
+    padding :0 10px;
+    margin: none;
+}
+.navleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin:0 10px;
+    padding:none;
+    font-weight: 300;
+    color: #F2F2F2;
+}
+.top img{
+    width: 200px;
+    border-radius: 100%;
+     
+}
+.skills{
+    display: flex;
+    gap: 10px; 
+}
+.skill_icon{
+   
+    padding:20px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    margin:0 20px;
+    
+}
+.skill_icon img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+section{
+    padding :10px
+}
+.top{
+    padding:50px 0;
+}
+.skills{
+  
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.bottom img{
+    padding:20px;
+    width:20px
+}
+ 
+.detail{
+    background-color: #282A3A;
+    color: white;
+    padding: 30px 0 ;
+    
+}
+
